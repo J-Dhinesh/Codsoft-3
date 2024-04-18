@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calci.css">
+    <script src="calci.js"></script>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <div class="container">
+        <div id="calculator">
+            <div id="calculator-display"></div>
+            <div id="calculator-buttons">
+                <button onclick="clearDisplay()"class="function">AC</button>
+                <button onclick="removeLastCharacter()"class="function"><img src="Backspace.png" width="35px" height="40px"></button>
+                <button onclick="calculatePercent('%')"class="function">%</button>
+                <button onclick="addtoDisplay('+')"class="function">+</button>
+                <button onclick="addtoDisplay('7')">7</button>
+                <button onclick="addtoDisplay('8')">8</button>
+                <button onclick="addtoDisplay('9')">9</button>
+                <button onclick="addtoDisplay('-')"class="function">-</button>
+                <button onclick="addtoDisplay('4')">4</button>
+                <button onclick="addtoDisplay('5')">5</button>
+                <button onclick="addtoDisplay('6')">6</button>
+                <button onclick="addtoDisplay('*')"class="function">x</button>
+                <button onclick="addtoDisplay('3')">3</button>
+                <button onclick="addtoDisplay('2')">2</button>
+                <button onclick="addtoDisplay('1')">1</button>
+                <button onclick="addtoDisplay('/')"class="function">/</button>
+                <button > </button>
+                <button onclick="addtoDisplay('0')">0</button>
+                <button onclick="addtoDisplay('.')">.</button>
+                <button onclick="calculateResult()"class="function">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
